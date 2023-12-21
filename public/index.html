@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h1>Password Generator</h1>
+        </header>
+        <main>
+
+            <div id="generatorContainer">
+
+                <p id="display"></p>
+                <div class="inputGroup">
+                    <label for="numberOfCharacters">Nombres de caractères : <span id="displayNumberOfCharacters">8</span></label>
+                    <input type="range" name="numberOfCharacters" id="numberOfCharacters" min="8" max="16" step="1">
+                </div>
+                <div id="buttonContainer">
+                    <button id="generateButton">Générer</button>
+                    <button id="copyButton">Copier</button>
+                    <button id="resetButton">Réinitialiser</button>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; <span id="currentYear"></span> Dammaretz Gaëtan - GDevWeb</p>
+                <p>Tous droits réservés</p>
+                <div class="footer-links">
+                    <p>Retrouvez-moi sur :
+                        <a href="https://github.com/Aescanor" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/ga%C3%ABtan-dammaretz/" target="_blank">Linkedin</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

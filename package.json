@@ -1,0 +1,13 @@
+{
+  "name": "jour4-tp",
+  "version": "1.0.0",
+  "description": "sandBox TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node /public/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["password", "generator"],
+  "author": "Dammaretz Gaëtan - GDevWeb",
+  "license": "ISC"
+}
